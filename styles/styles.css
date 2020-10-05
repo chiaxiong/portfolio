@@ -1,0 +1,19 @@
+h1 img {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#menu li a {
+    text-decoration: none;
+}
+
+#menu>ul>li {
+    float: left;
+    width: 110px;
+}
+
