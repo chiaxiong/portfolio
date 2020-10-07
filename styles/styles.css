@@ -1,19 +1,39 @@
+/* navbar style starts here */
+
 ul {
     list-style-type: none;
 }
 
-#menu li a {
-    text-decoration: none;
+.navbar .navbar-nav li a {
+    color: #5CCBEE !important;
 }
 
-.logo {
+.navbar-brand img {
+    width: 50%;
     float: left;
 }
 
-.contact-form {
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
+.navbar {
+    margin-bottom: 60px;
 }
+
+.navbar-collapse .navbar-default {
+    color: #5CCBEE;
+}
+
+
+/* contact page style starts here */
+
+.contact-form {
+    color: #5CCBEE;
+}
+
+.col-md {
+    padding: 0px 70px 50px 70px;
+}
+
+
+/* social media style starts here */
 
 .fa {
     padding: 13px;
@@ -30,16 +50,28 @@ ul {
 }
 
 .fa-facebook {
-    background: #3B5998;
-    color: white;
+    color: #5CCBEE;
 }
 
 .fa-instagram {
-    background: rgb(245, 140, 140);
-    color: white;
+    color: #5CCBEE;
 }
 
 .fa-linkedin {
-    background: #007bb5;
-    color: white;
+    color: #5CCBEE;
+}
+
+
+/* general styling */
+
+h2 {
+    padding-top: 20px;
+}
+
+
+/* project page styling starts here */
+
+.project-img {
+    max-width: 50%;
+    max-height: 40%;
 }

@@ -29,7 +29,7 @@
                         <a class="nav-link" href="project.html">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../about-me/about-me.html">About me</a>
+                        <a class="nav-link" href="../about-me/about-me.html">About Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../contact/contact.html">Contacts</a>
@@ -39,16 +39,22 @@
         </nav>
     </header>
 </body>
-
-<h2>Most Wanted Project</h2>
-<p>A search data base</p>
-<button onclick="app(data)">Start Searching</button>
-<script src="../../../MostWanted/data.js"></script>
-<script src="../../../MostWanted/app.js"></script>
-
-<h2>RPSLS Project</h2>
-<p>A game of Rock, Paper, Scissor, Lizard, and Spock. Best of three wins.</p>
-<button onclick="game()">Let's play a game!</button>
-<script src="../../../Rock_Paper_Scissor_Game/index.js"></script>
+<div class="row">
+    <div class="col-md-4">
+        <img src="picture/Group-of-People.jpg" alt="vector image of people" class="project-img">
+        <h2>Most Wanted Project</h2>
+        <p>A search data base</p>
+        <button onclick="app(data)">Start Searching</button>
+        <script src="../../../MostWanted/data.js"></script>
+        <script src="../../../MostWanted/app.js"></script>
+    </div>
+    <div class="col-md-4">
+        <img src="picture/rpsls-image.png" alt="rpsls image" class="project-img">
+        <h2>RPSLS Project</h2>
+        <p>A game of Rock, Paper, Scissor, Lizard, and Spock. Best of three wins.</p>
+        <button onclick="game()">Let's play a game!</button>
+        <script src="../../../Rock_Paper_Scissor_Game/index.js"></script>
+    </div>
+</div>
 
 </html>
