@@ -1,3 +1,46 @@
+/* general style starts here */
+
+p {
+    font-family: mr-eaves-modern, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+h1 {
+    font-family: mr-eaves-modern, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: mr-eaves-modern, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+a {
+    font-family: mr-eaves-modern, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+body {
+    padding: 0 100px 0 100px;
+}
+
+#home {
+    background: url(../images/CYX_BG.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+
 /* navbar style starts here */
 
 ul {
@@ -23,10 +66,6 @@ ul {
 
 
 /* contact page style starts here */
-
-.contact-form {
-    color: #5CCBEE;
-}
 
 .col-md {
     padding: 0px 70px 50px 70px;
@@ -62,16 +101,25 @@ ul {
 }
 
 
-/* general styling */
-
-h2 {
-    padding-top: 20px;
-}
-
-
 /* project page styling starts here */
 
 .project-img {
     max-width: 50%;
     max-height: 40%;
+}
+
+.row img {
+    border-radius: 12%;
+}
+
+.profile-header {
+    display: block;
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: bold;
+    color: #5CCBEE;
+}
+
+.section-header {
+    color: #5CCBEE;
 }
