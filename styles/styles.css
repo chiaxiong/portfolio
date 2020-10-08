@@ -110,6 +110,8 @@ ul {
 
 .row img {
     border-radius: 12%;
+    margin-bottom: 30px;
+    object-fit: cover;
 }
 
 .profile-header {
