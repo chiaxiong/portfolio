@@ -111,7 +111,15 @@ ul {
 .row img {
     border-radius: 12%;
     margin-bottom: 30px;
-    object-fit: cover;
+    width: 360px;
+    height: 360px;
+}
+
+@media (max-width: 767px) {
+    .row img {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 .profile-header {
