@@ -40,6 +40,11 @@ body {
     background-size: cover;
 }
 
+.welcome {
+    font-weight: 400;
+    color: #5CCBEE;
+}
+
 
 /* navbar style starts here */
 
@@ -105,8 +110,16 @@ ul {
 
 .project-img {
     max-width: 50%;
-    max-height: 40%;
+    max-height: 27%;
 }
+
+.row h2 {
+    font-weight: bold;
+    color: #5CCBEE;
+}
+
+
+/* about me page styling starts here */
 
 .row img {
     border-radius: 12%;
